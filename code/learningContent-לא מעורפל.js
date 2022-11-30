@@ -65,8 +65,22 @@ const DATA = {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
         // שאלות לנושא הזה
         "questions": [
+            {
+                type: "multiple",
+                question: "מהו זרם חשמלי?",
+                ans1: "זרימת אלקטרונים מהקוטב החיובי לשלילי",
+                ans2: "זרימת ניוטרונים מהקוטב השלילי לחיובי",
+                ans3: "זרימת אלקטרונים מהקוטב השלילי לחיובי",
+                ans4: "זרימת ניוטרונים מהקוטב החיובי לשלילי",
+                correctAns: "ans3"
+            },
+            {
+                type: "binary",
+                sentence: "מטען ששווה 3 ייחשב כמטען בעל חוסר אלקטרונים",
+                trueOrFalse: true
+            }
         ],
-        "amountOfQuestions": 0,
+        "amountOfQuestions": 2,
         "learningContent": {
             "מושגי יסוד בחשמל": {
                 "מושגי יסוד בחשמל": [
@@ -85,8 +99,23 @@ const DATA = {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
         // שאלות לנושא הזה
         "questions": [
+            {
+                type: "binary",
+                sentence: "זהב הוא חומר מוליך?",
+                trueOrFalse: true
+            },
+            {
+                type: "binary",
+                sentence: "מי ים הם חומר מבודד?",
+                trueOrFalse: false
+            },
+            {
+                type: "binary",
+                sentence: "פלסטיק הוא חומר מבודד?",
+                trueOrFalse: true
+            },
         ],
-        "amountOfQuestions": 0,
+        "amountOfQuestions": 3,
         "learningContent": {
             "חומר מוליך ומבודד": {
                 "חומר מוליך ומבודד": [
@@ -105,6 +134,15 @@ const DATA = {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
         // שאלות לנושא הזה
         "questions": [
+            {
+                type: "multiple",
+                question: "מה הגוף הכי גדול שתמיד נעדיף להאריק אליו?",
+                ans1: "סוליה של נעל",
+                ans2: "אדמת כדור הארץ",
+                ans3: "חול",
+                ans4: "מתכת",
+                correctAns: "ans4"
+            },
         ],
         "learningContent": {
           "הארקה": {
@@ -117,12 +155,21 @@ const DATA = {
                 ],
             },
         },
-        "amountOfQuestions": 0
+        "amountOfQuestions": 1
     },
     "קצר": {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
         // שאלות לנושא הזה
         "questions": [
+            {
+                type: "multiple",
+                question: "במידה ויהיה קצר במעגל מה מהבאים יקרה?",
+                ans1: "אוטומטית כל המעגל החשמלי יפסק",
+                ans2: "המתח במעגל גדל",
+                ans3: "הפתילים יתחממו וישרפו",
+                ans4: "הזרם במעגל יהיה גבוה מאוד",
+                correctAns: "ans4"
+            },
         ],
         "learningContent": {
             "קצר": {
@@ -134,7 +181,7 @@ const DATA = {
                   ],
               },
           },
-        "amountOfQuestions": 0,
+        "amountOfQuestions": 1,
 
     },
     "סוגי נתיכים": {
@@ -149,6 +196,15 @@ const DATA = {
                 ans3: "נתיך נשרף נועד להישרף וסופג את כל הזרם",
                 ans4: "נתיך נדרך דורך את הזרם במעגל",
                 correctAns: "ans2"
+            },
+            {
+                type: "multiple",
+                question: "מהו תפקיד של נתיך?",
+                ans1: "למנוע עומס יתר והתחממות במעגל החשמלי",
+                ans2: "להיות הסוללה של המעגל",
+                ans3: "ניתוק אוטומטי בעת תקלה במעגל",
+                ans4: "להישרף בעת תקלה במעגל",
+                correctAns: "ans1"
             },
         ],
         "learningContent": {
@@ -168,12 +224,35 @@ const DATA = {
 
             }
         },
-        "amountOfQuestions": 1
+        "amountOfQuestions": 2
     },
     "זרם": {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
         // שאלות לנושא הזה
         "questions": [
+            {
+                type: "binary",
+                sentence: "שקע קיר הוא זרם ישר?",
+                trueOrFalse: false
+            },
+            {
+                type: "multiple",
+                question: "זרם שזורם בעוצמה קבועה ובמהירות קבועה יקרא?",
+                ans1: "זרם חילופין",
+                ans2: "זרם ישיר",
+                ans3: "זרם רגיל",
+                ans4: "זרם קבוע",
+                correctAns: "ans2"
+            },
+            {
+                type: "multiple",
+                question: "סמן את התשובה הנכונה:",
+                ans1: "24v זה זרם ישר ו230v זה זרם חילופין",
+                ans2: "מתח של זרם חילופין משתנה בכל רגע נתון וזרם ישר יהיה קבוע 24v",
+                ans3: "אין מתח ספציפי לכל זרם",
+                ans4: "24v זה זרם חילופין ו230v זה זרם ישר",
+                correctAns: "ans1"
+            },
         ],
         "learningContent": {
             // סוג הכרטיסייה
@@ -188,12 +267,22 @@ const DATA = {
 
             }
         },
-        "amountOfQuestions": 0
+        "amountOfQuestions": 3
     },
     "חיבור בטור ובמקביל": {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
         // שאלות לנושא הזה
         "questions": [
+            {
+                type: "binary",
+                sentence: "בחיבור טורי הזרם בין הצרכנים זהה?",
+                trueOrFalse: true
+            },
+            {
+                type: "binary",
+                sentence: "בחיבור במקביל המתח על כל צרכן משתנה?",
+                trueOrFalse: false
+            },
             
         ],
         "learningContent": {
@@ -209,7 +298,7 @@ const DATA = {
 
             }
         },
-        "amountOfQuestions": 0
+        "amountOfQuestions": 2
     },
     "מערכות מתח": {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
@@ -241,15 +330,15 @@ const DATA = {
                     },
                     {
                         cardType: "picAndText",
-                        pic: "../assets/images/learning/tentionSystems2.png",
-                        content: '2. חמור מצברים - דרך שניה היא באמצעות חמור מצברים. בשיטה זו נוכל לספק מתח למכשירים ללא תלות במתח קיר אלא באמצעות מצברים נטענים.קודם ניקח את החמור מצברים ונכניס לתוכו את שני המצברים, כל מצבר 12V זרם ישר, סה"כ 24V. כעת נצטרך לחבר את כל המצברים לחמור מצברים עצמו באמצעות פתילי סנדליות. לאחר מכן נחבר את המ"טים באמצעות פתילי המתח בסנדליות לחיבור המתאים בחמור המצברים (או באמצעות קופסת מתח) והם יספקו מתח למכדירים (כמובן שנדליק את החמור מצברים עצמו). המצברים פועלים בעצמם כל עוד יש בהם מתח (כמו סוללה).',
+                        pic: "../assets/images/learning/hamorMatzberim.png",
+                        content: '2. חמור מצברים (מ.ט 2900) - דרך שניה היא באמצעות חמור מצברים. בשיטה זו נוכל לספק מתח למכשירים ללא תלות במתח קיר אלא באמצעות מצברים נטענים.קודם ניקח את החמור מצברים ונכניס לתוכו את שני המצברים, כל מצבר 12V זרם ישר, סה"כ 24V. כעת נצטרך לחבר את כל המצברים לחמור מצברים עצמו באמצעות פתילי סנדליות. לאחר מכן נחבר את המ"טים באמצעות פתילי המתח בסנדליות לחיבור המתאים בחמור המצברים (או באמצעות קופסת מתח) והם יספקו מתח למכשירים (כמובן שנדליק את החמור מצברים עצמו). המצברים פועלים בעצמם כל עוד יש בהם מתח (כמו סוללה).',
                     },
                     {
                         cardType: "twoPics",
                         content1: 'על מנת להטעין את המצברים יש 2 אפשרויות:<br><br>1. נחבר מייצב כח למתח קיר (זרם חילופין)  והוא ימיר אותו לזרם ישר שאותו נחבר לחמור מצברים.',
-                        pic1: '../assets/images/learning/MK.jpeg',
+                        pic1: "../assets/images/learning/Generator.jpeg",
                         content2: '2. גנרטור (י"כ) - נוכל לחבר גנרטור שיפעל על סולר ויתחבר לחמור מצברים כך בצורה כזאת אם נופל המתח קיר עדיין נוכל לעבור על הגנרטור.',
-                        pic2: "../assets/images/learning/Generator.jpeg"
+                        pic2: '../assets/images/learning/MK.jpeg',
                     },
                 ],
 
