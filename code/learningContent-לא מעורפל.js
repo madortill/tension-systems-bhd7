@@ -144,6 +144,7 @@ const DATA = {
                 correctAns: "ans4"
             },
         ],
+        "amountOfQuestions": 1,
         "learningContent": {
           "הארקה": {
                 "הארקה": [
@@ -155,7 +156,7 @@ const DATA = {
                 ],
             },
         },
-        "amountOfQuestions": 1
+        
     },
     "קצר": {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
@@ -171,6 +172,7 @@ const DATA = {
                 correctAns: "ans4"
             },
         ],
+        "amountOfQuestions": 1,
         "learningContent": {
             "קצר": {
                   "קצר": [
@@ -181,7 +183,7 @@ const DATA = {
                   ],
               },
           },
-        "amountOfQuestions": 1,
+        
 
     },
     "סוגי נתיכים": {
@@ -207,6 +209,7 @@ const DATA = {
                 correctAns: "ans1"
             },
         ],
+        "amountOfQuestions": 2,
         "learningContent": {
             // סוג הכרטיסייה
             "סוגי נתיכים": {
@@ -224,7 +227,7 @@ const DATA = {
 
             }
         },
-        "amountOfQuestions": 2
+        
     },
     "זרם": {
         // "icon":  "../assets/images/learning/Artboard 4.svg",
